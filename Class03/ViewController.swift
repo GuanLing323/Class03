@@ -49,7 +49,6 @@ class ViewController: UIViewController {
         print(包子的數量)
         print(西瓜的數量)
         
-        print("我買了\(西瓜的數量) 顆西瓜")
         
         let result = add(first: 1, second: 2)
         
