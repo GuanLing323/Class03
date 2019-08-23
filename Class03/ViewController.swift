@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbMessage: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -46,6 +48,8 @@ class ViewController: UIViewController {
                 西瓜的數量 = 0
             }
         }
+        
+        
         print(包子的數量)
         print(西瓜的數量)
         
@@ -60,5 +64,14 @@ class ViewController: UIViewController {
     func add( first : Int, second : Int) -> Int {
         return 0
     }
+
+
+    @IBAction func btnTestClicked(_ sender: UIButton) {
+        
+        lbMessage.text = "Hi, Apple World"
+    }
+    
+    
+
 }
 
