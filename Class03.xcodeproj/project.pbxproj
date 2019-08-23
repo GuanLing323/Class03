@@ -11,6 +11,7 @@
 		6AE31F2ED8EA38C6C72FD436 /* Pods_Class03.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E259E2323A1AB877A0EECB /* Pods_Class03.framework */; };
 		8E9F3B13C2965C4D6539CD8E /* Pods_Class03UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3807B3710B4B43FCD53E0642 /* Pods_Class03UITests.framework */; };
 		9C2BA6E1230E6004008F6841 /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2BA6E0230E6004008F6841 /* CalcViewController.swift */; };
+		9CAA7973230FC24A0061FB69 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA7972230FC24A0061FB69 /* SplashViewController.swift */; };
 		9CCB40F9230B89D10027719F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB40F8230B89D10027719F /* AppDelegate.swift */; };
 		9CCB40FB230B89D10027719F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB40FA230B89D10027719F /* ViewController.swift */; };
 		9CCB40FE230B89D10027719F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCB40FC230B89D10027719F /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		5F464E110C937232344FC656 /* Pods-Class03Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class03Tests.debug.xcconfig"; path = "Target Support Files/Pods-Class03Tests/Pods-Class03Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CBD406CE2DC7A8FDEA62425 /* Pods_Class03Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Class03Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2BA6E0230E6004008F6841 /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		9CAA7972230FC24A0061FB69 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		9CCB40F5230B89D10027719F /* Class03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Class03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCB40F8230B89D10027719F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CCB40FA230B89D10027719F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				9CCB4101230B89D40027719F /* LaunchScreen.storyboard */,
 				9CCB4104230B89D40027719F /* Info.plist */,
 				9C2BA6E0230E6004008F6841 /* CalcViewController.swift */,
+				9CAA7972230FC24A0061FB69 /* SplashViewController.swift */,
 			);
 			path = Class03;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				9CCB40FB230B89D10027719F /* ViewController.swift in Sources */,
 				9C2BA6E1230E6004008F6841 /* CalcViewController.swift in Sources */,
 				9CCB40F9230B89D10027719F /* AppDelegate.swift in Sources */,
+				9CAA7973230FC24A0061FB69 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
